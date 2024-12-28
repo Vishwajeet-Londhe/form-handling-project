@@ -2,8 +2,8 @@ import React from 'react'
 
 function Card() {
   return (
-    <div>
-      Card
+    <div className='w-32 h-full bg-sky-300'>
+      
     </div>
   )
 }
