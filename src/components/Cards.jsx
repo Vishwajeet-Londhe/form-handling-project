@@ -1,9 +1,10 @@
 import React from 'react'
+import Card from './Card'
 
 function Cards() {
   return (
-    <div>
-      Cards
+    <div className='w-full h-[25vh] bg-sky-100 p-4'>
+      <Card />
     </div>
   )
 }
