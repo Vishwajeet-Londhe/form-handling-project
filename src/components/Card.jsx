@@ -8,6 +8,7 @@ function Card() {
       </div>
       <h1 className=' mt-1 text-xl font-semibold'>Vishwajeet</h1>
       <p className='mt-1 text-center text-xs font-semibold leading-1 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, enim.</p>
+      <button>Remove It</button>
     </div>
   )
 }
