@@ -6,8 +6,8 @@ function Card() {
       <div className='image w-[3vw] h-[3vw] rounded-full bg-zinc-200 overflow-hidden'>
         <img className='w-full h-full object-cover' src="" alt="" />
       </div>
-      <h1 className='text-xl font-semibold'>Vishwajeet</h1>
-      <p className='text-center text-xs font-semibold leading-1 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, enim.</p>
+      <h1 className=' mt-1 text-xl font-semibold'>Vishwajeet</h1>
+      <p className='mt-1 text-center text-xs font-semibold leading-1 tracking-tight'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis, enim.</p>
     </div>
   )
 }
