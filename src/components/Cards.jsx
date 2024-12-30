@@ -3,7 +3,7 @@ import Card from './Card'
 
 function Cards() {
   return (
-    <div className='w-full h-[40vh] bg-sky-100 p-4'>
+    <div className='w-full bg-sky-100 p-4'>
       <Card />
     </div>
   )
