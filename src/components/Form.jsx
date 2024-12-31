@@ -7,7 +7,7 @@ function form() {
         <input className='rounded-md px-2 py-1 text-base font-semibold outline-none' type="text" placeholder='name' />
         <input className='rounded-md px-2 py-1 text-base font-semibold outline-none' type="text" placeholder='email' />
         <input className='rounded-md px-2 py-1 text-base font-semibold outline-none' type="text" placeholder='image url'/>
-        <input type="submit" />
+        <input className='rounded-md px-5 py-1 bg-blue-500 text-white font-semibold' type="submit" />
       </form>
     </div>
   )
