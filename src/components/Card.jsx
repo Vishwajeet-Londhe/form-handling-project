@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Card() {
+function Card(users) {
   return (
     <div className='w-52 h-full bg-zinc-100 rounded-lg flex flex-col items-center p-2'>
       <div className='image w-[3vw] h-[3vw] rounded-full bg-zinc-200 overflow-hidden'>
