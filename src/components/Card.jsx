@@ -3,7 +3,7 @@ import React from 'react'
 function Card({user}) {
   return (
     <div className='w-52 h-full bg-zinc-100 rounded-lg flex flex-col items-center p-2'>
-      <div className='image w-[3vw] h-[3vw] rounded-full bg-zinc-200 overflow-hidden'>
+      <div className='image w-[5vw] h-[5vw] rounded-full bg-zinc-200 overflow-hidden'>
         <img className='w-full h-full object-cover' src={user.image} alt="" />
       </div>
       <h1 className=' mt-1 text-xl font-semibold'>{user.name}</h1>
