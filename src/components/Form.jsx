@@ -2,7 +2,7 @@ import { data } from 'autoprefixer'
 import React from 'react'
 import { useForm } from 'react-hook-form'
 
-function form(handleFormSubmitData) {
+function form({handleFormSubmitData}) {
   const {register, handleSubmit} = useForm()
   return (
     <div className='mt-10 flex justify-center'>
