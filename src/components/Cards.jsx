@@ -5,7 +5,7 @@ function Cards({users}) {
   return (
     <div className='w-ful p-4 flex justify-center gap-4 flex-wrap max-h-96 overflow-auto'>
       {users.map((item, index)=>{
-        return <Card key={index} />
+        return <Card user={item} key={index} />
         
       })}
     </div>
