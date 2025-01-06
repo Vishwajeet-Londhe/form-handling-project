@@ -13,7 +13,7 @@ function App() {
     <div className='w-full h-screen bg-zinc-200 flex items-center justify-center'>
       <div className='container mx-auto'>
         <Cards users={users} />
-        <Form />
+        <Form handleFormSubmitData={handleFormSubmitData} />
       </div>
     </div>
   )
